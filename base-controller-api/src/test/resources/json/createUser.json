@@ -1,0 +1,46 @@
+{
+	"organizations": [
+		{
+			"accountName": "demosellercenter",
+			"id": "demosellercenter",
+			"name": "demosellercenter"
+		}
+	],
+	"firstName": "Admin",
+	"roles": [
+		{
+			"roleName": "ADMIN_USER",
+			"id": "ADMIN_USER",
+			"description": "SuperAdmin Admin User - Has permission to perform admin tasks"
+		},
+		{
+			"roleName": "REPORTS_USER",
+			"id": "REPORTS_USER",
+			"description": "Has report right"
+		},
+		{
+			"roleName": "CARRIERS_USER",
+			"id": "CARRIERS_USER",
+			"description": "Has carrier right"
+		},
+		{
+			"roleName": "INVENTORY_USER",
+			"id": "INVENTORY_USER",
+			"description": "Has inventory right"
+		},
+		{
+			"roleName": "ORDERS_USER",
+			"id": "ORDERS_USER",
+			"description": "Has order right"
+		},
+		{
+			"roleName": "CATALOG_USER",
+			"id": "CATALOG_USER",
+			"description": "Has catalog right"
+		}
+	],
+	"lastName": "Admin",
+	"email": "admin@admin.com",
+	"password": "{bcrypt}$2a$10$DelzNRFIfF.QPtMouUsGX.ZyJykyGbGsVI3Q40Ms6i7rzy0NO3B6e",
+	"id": "1"
+}

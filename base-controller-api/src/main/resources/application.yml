@@ -1,0 +1,80 @@
+server:
+  port: 8091
+  max-http-header-size: 65536
+  #servlet:
+  #  context-path: ${CONTEXT_PATH}
+
+spring:
+  restclient:
+    connect-timeout: 60000
+    read-timeout: 60000
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: romanapto@gmail.com
+    password: 
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
+
+    from: romanapto@gmail.com
+    personal: 
+    url-password: 
+  main:
+    allow-bean-definition-overriding: true
+
+  data:
+    elasticsearch:
+      host: localhost
+      port: 9200
+      username:
+      password:
+      ssl-enabled: false
+
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+
+  jmx:
+    default-domain: 
+
+security:
+  oauth2:
+    resource:
+      filter-order: 3
+  signing-key: MaYzkSjmkzPC57L
+  encoding-strength: 256
+  #security-realm: Spring Boot JWT Realm
+  jwt:
+    client-id: dev
+    client-secret: dev
+    resource-ids: centerresourceid
+    token-url: http://localhost:8091/api/v1/oauth/token
+
+cron:
+  notification:
+    expression: 1 * * * * *  
+
+web:
+  directory: http://localhost
+
+api:
+  fulfillment:
+    endpoint: http://localhost
+
+general-setting:
+  default-time-zone: America/Bogota
+
+queue:
+  commercial-condition: 
+  price-percent-discount: 
+
+rate-limit:
+  capacity: 120
+  tokens: 120
+
+app:
+  version: "@project.version@"

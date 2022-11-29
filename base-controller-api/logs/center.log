@@ -1,0 +1,437 @@
+2022-08-22 06:03:01 - Starting CenterConnectorApplication on julian with PID 13560 (/home/julian/Documents/repoMarti/base WOLOX fINAL/base-controller-api/target/classes started by julian in /home/julian/Documents/repoMarti/base WOLOX fINAL/base-controller-api)
+2022-08-22 06:03:01 - No active profile set, falling back to default profiles: default
+2022-08-22 06:03:01 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-08-22 06:03:01 - Finished Spring Data repository scanning in 38ms. Found 2 Elasticsearch repository interfaces.
+2022-08-22 06:03:01 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-08-22 06:03:01 - Finished Spring Data repository scanning in 14ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-08-22 06:03:02 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@68880c21' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean 'ESConfig' of type [com.app.config.ESConfig$$EnhancerBySpringCGLIB$$ffb691ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Connection to ElasticSearch started!
+2022-08-22 06:03:02 - Bean 'clientRest' of type [org.elasticsearch.client.RestHighLevelClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 06:03:02 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 06:03:02 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 06:03:02 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 06:03:02 - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2022-08-22 06:03:02 - Version Elasticsearch Client in build: 7.6.2
+2022-08-22 06:03:02 - Version Elasticsearch Client used: 7.6.2
+2022-08-22 06:03:02 - Version Elasticsearch cluster: 7.9.3
+2022-08-22 06:03:02 - Version mismatch in between Elasticsearch Client and Cluster: 7.6.2 - 7.9.3
+2022-08-22 06:03:02 - Bean 'elasticsearchTemplate' of type [org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean 'userRepositoryImpl' of type [com.app.repository.es.custom.UserRepositoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#769bd849' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#769bd849' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#27443560' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#2539cd1c' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#2539cd1c' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean 'userRepository' of type [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean 'userRepository' of type [com.sun.proxy.$Proxy91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean 'managementUserRepositoryImpl' of type [com.app.repository.es.custom.ManagementUserRepositoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#716185fe' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#716185fe' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#1dcedc93' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#51f95f0d' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean '(inner bean)#51f95f0d' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean 'managementUserRepository' of type [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean 'managementUserRepository' of type [com.sun.proxy.$Proxy93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean 'methodSecurityConfig' of type [com.app.config.security.customexpression.MethodSecurityConfig$$EnhancerBySpringCGLIB$$f3775bb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 06:03:02 - Tomcat initialized with port(s): 8091 (http)
+2022-08-22 06:03:02 - Starting service [Tomcat]
+2022-08-22 06:03:02 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-22 06:03:02 - Initializing Spring embedded WebApplicationContext
+2022-08-22 06:03:02 - Root WebApplicationContext: initialization completed in 1638 ms
+2022-08-22 06:03:02 - Trying to find Dozer configuration file: dozer.properties
+2022-08-22 06:03:02 - Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2022-08-22 06:03:02 - Initializing Dozer. Version: 5.5.0, Thread Name: main
+2022-08-22 06:03:02 - Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2022-08-22 06:03:02 - Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2022-08-22 06:03:02 - Initializing a new instance of dozer bean mapper.
+2022-08-22 06:03:03 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-22 06:03:03 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/api/v1/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7af0d91b, org.springframework.security.web.context.SecurityContextPersistenceFilter@23b71d24, org.springframework.security.web.header.HeaderWriterFilter@36463b09, org.springframework.security.web.authentication.logout.LogoutFilter@2b458cd6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2b098563, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c56644f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20b829d5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c7f6e96, org.springframework.security.web.session.SessionManagementFilter@305552d6, org.springframework.security.web.access.ExceptionTranslationFilter@9729a97, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69ffdaa8]
+2022-08-22 06:03:03 - Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@3b770d07, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62b0bf85, org.springframework.security.web.context.SecurityContextPersistenceFilter@14ed7ddf, org.springframework.security.web.header.HeaderWriterFilter@67b560fe, org.springframework.security.web.authentication.logout.LogoutFilter@11d2714a, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@bb6f3f7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@892af0e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@446c8c72, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fcaea93, org.springframework.security.web.session.SessionManagementFilter@45dde6ac, org.springframework.security.web.access.ExceptionTranslationFilter@5e385b6f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b211077]
+2022-08-22 06:03:03 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ba6557e, org.springframework.security.web.context.SecurityContextPersistenceFilter@2326180c, org.springframework.security.web.header.HeaderWriterFilter@53e93fb7, org.springframework.security.web.authentication.logout.LogoutFilter@559d19c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@719c1faf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68e47e7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c00d406, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f172892, org.springframework.security.web.session.SessionManagementFilter@3a861417, org.springframework.security.web.access.ExceptionTranslationFilter@5d7f1e59]
+2022-08-22 06:03:03 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-22 06:03:03 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-22 06:03:03 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 06:03:03 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 06:03:03 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 06:03:03 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 06:03:03 - Initializing ExecutorService 'taskScheduler'
+2022-08-22 06:03:03 - Tomcat started on port(s): 8091 (http) with context path ''
+2022-08-22 06:03:03 - Context refreshed
+2022-08-22 06:03:03 - Found 1 custom documentation plugin(s)
+2022-08-22 06:03:04 - Scanning for api listing references
+2022-08-22 06:03:04 - Started CenterConnectorApplication in 3.401 seconds (JVM running for 3.949)
+2022-08-22 06:03:19 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-22 06:03:19 - Initializing Servlet 'dispatcherServlet'
+2022-08-22 06:03:19 - Completed initialization in 5 ms
+2022-08-22 06:03:54 - Using the following xml files to load custom mappings for the bean mapper instance: [file:/home/julian/Documents/repoMarti/base%20WOLOX%20fINAL/base-controller-api/target/classes/dozer/custom-mapping.xml]
+2022-08-22 06:03:54 - Trying to find xml mapping file: file:/home/julian/Documents/repoMarti/base%20WOLOX%20fINAL/base-controller-api/target/classes/dozer/custom-mapping.xml
+2022-08-22 06:03:54 - Using URL [file:/home/julian/Documents/repoMarti/base%20WOLOX%20fINAL/base-controller-api/target/classes/dozer/custom-mapping.xml] to load custom xml mappings
+2022-08-22 06:03:54 - Successfully loaded custom xml mappings from URL: [file:/home/julian/Documents/repoMarti/base%20WOLOX%20fINAL/base-controller-api/target/classes/dozer/custom-mapping.xml]
+2022-08-22 10:29:31 - Starting CenterConnectorApplication on julian with PID 13928 (/home/julian/Documents/repoMarti/base MERCADO LIBRE/base-controller-api/target/classes started by julian in /home/julian/Documents/repoMarti/base MERCADO LIBRE/base-controller-api)
+2022-08-22 10:29:31 - No active profile set, falling back to default profiles: default
+2022-08-22 10:29:32 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-08-22 10:29:32 - Finished Spring Data repository scanning in 40ms. Found 2 Elasticsearch repository interfaces.
+2022-08-22 10:29:32 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-08-22 10:29:32 - Finished Spring Data repository scanning in 13ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-08-22 10:29:32 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4195105b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean 'ESConfig' of type [com.app.config.ESConfig$$EnhancerBySpringCGLIB$$d00fdbb5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Connection to ElasticSearch started!
+2022-08-22 10:29:32 - Bean 'clientRest' of type [org.elasticsearch.client.RestHighLevelClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:29:32 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:29:32 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:29:32 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:29:32 - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2022-08-22 10:29:32 - Version Elasticsearch Client in build: 7.6.2
+2022-08-22 10:29:32 - Version Elasticsearch Client used: 7.6.2
+2022-08-22 10:29:32 - Bean 'elasticsearchTemplate' of type [org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean 'userRepositoryImpl' of type [com.app.repository.es.custom.UserRepositoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#60a7e509' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#60a7e509' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#5b47731f' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#3965bdf9' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#3965bdf9' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Cannot create index: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+2022-08-22 10:29:32 - Bean 'userRepository' of type [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean 'userRepository' of type [com.sun.proxy.$Proxy91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean 'managementUserRepositoryImpl' of type [com.app.repository.es.custom.ManagementUserRepositoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#6975fb1c' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#6975fb1c' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#32120956' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#566f1852' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:32 - Bean '(inner bean)#566f1852' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:33 - Cannot create index: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+2022-08-22 10:29:33 - Bean 'managementUserRepository' of type [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:33 - Bean 'managementUserRepository' of type [com.sun.proxy.$Proxy93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:33 - Bean 'methodSecurityConfig' of type [com.app.config.security.customexpression.MethodSecurityConfig$$EnhancerBySpringCGLIB$$c3d0a5bf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:33 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:29:33 - Tomcat initialized with port(s): 8091 (http)
+2022-08-22 10:29:33 - Starting service [Tomcat]
+2022-08-22 10:29:33 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-22 10:29:33 - Initializing Spring embedded WebApplicationContext
+2022-08-22 10:29:33 - Root WebApplicationContext: initialization completed in 1518 ms
+2022-08-22 10:29:33 - Trying to find Dozer configuration file: dozer.properties
+2022-08-22 10:29:33 - Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2022-08-22 10:29:33 - Initializing Dozer. Version: 5.5.0, Thread Name: main
+2022-08-22 10:29:33 - Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2022-08-22 10:29:33 - Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2022-08-22 10:29:33 - Initializing a new instance of dozer bean mapper.
+2022-08-22 10:29:33 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-22 10:29:33 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/api/v1/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fac80a8, org.springframework.security.web.context.SecurityContextPersistenceFilter@3f357c9d, org.springframework.security.web.header.HeaderWriterFilter@6121a7dd, org.springframework.security.web.authentication.logout.LogoutFilter@568f4faa, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@b428830, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5458c71e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@99c4993, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6987a133, org.springframework.security.web.session.SessionManagementFilter@3f3c8b60, org.springframework.security.web.access.ExceptionTranslationFilter@2bb717d7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a0963be]
+2022-08-22 10:29:33 - Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@11e834ad, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@710ae6a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@22b7ef2b, org.springframework.security.web.header.HeaderWriterFilter@2353354a, org.springframework.security.web.authentication.logout.LogoutFilter@2b098563, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@74f4a2ba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6d421fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3c17bd0b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25d911a, org.springframework.security.web.session.SessionManagementFilter@7c7ed72a, org.springframework.security.web.access.ExceptionTranslationFilter@7babed9e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ea48c37]
+2022-08-22 10:29:33 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@36b53f08, org.springframework.security.web.context.SecurityContextPersistenceFilter@38732372, org.springframework.security.web.header.HeaderWriterFilter@36df4c26, org.springframework.security.web.authentication.logout.LogoutFilter@6c6c2a73, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a4af081, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@639cb788, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fee69a1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@54329480, org.springframework.security.web.session.SessionManagementFilter@76828577, org.springframework.security.web.access.ExceptionTranslationFilter@aca2fc3]
+2022-08-22 10:29:33 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-22 10:29:33 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-22 10:29:33 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:29:33 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:29:33 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:29:33 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:29:34 - Initializing ExecutorService 'taskScheduler'
+2022-08-22 10:29:34 - Tomcat started on port(s): 8091 (http) with context path ''
+2022-08-22 10:29:34 - Context refreshed
+2022-08-22 10:29:34 - Found 1 custom documentation plugin(s)
+2022-08-22 10:29:34 - Scanning for api listing references
+2022-08-22 10:29:34 - Started CenterConnectorApplication in 3.061 seconds (JVM running for 3.676)
+2022-08-22 10:30:27 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-22 10:30:27 - Initializing Servlet 'dispatcherServlet'
+2022-08-22 10:30:27 - Completed initialization in 7 ms
+2022-08-22 10:30:37 - Handling error: InternalAuthenticationServiceException, Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+org.springframework.security.authentication.InternalAuthenticationServiceException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.oauth2.provider.password.ResourceOwnerPasswordTokenGranter.getOAuth2Authentication(ResourceOwnerPasswordTokenGranter.java:71)
+	at org.springframework.security.oauth2.provider.token.AbstractTokenGranter.getAccessToken(AbstractTokenGranter.java:72)
+	at org.springframework.security.oauth2.provider.token.AbstractTokenGranter.grant(AbstractTokenGranter.java:67)
+	at org.springframework.security.oauth2.provider.CompositeTokenGranter.grant(CompositeTokenGranter.java:38)
+	at org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer$4.grant(AuthorizationServerEndpointsConfigurer.java:583)
+	at org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.postAccessToken(TokenEndpoint.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:204)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.springframework.dao.DataAccessResourceFailureException: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+	at org.springframework.data.elasticsearch.core.ElasticsearchExceptionTranslator.translateExceptionIfPossible(ElasticsearchExceptionTranslator.java:76)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.translateException(ElasticsearchRestTemplate.java:378)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.execute(ElasticsearchRestTemplate.java:361)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.search(ElasticsearchRestTemplate.java:269)
+	at org.springframework.data.elasticsearch.core.SearchOperations.searchOne(SearchOperations.java:276)
+	at org.springframework.data.elasticsearch.repository.query.ElasticsearchPartQuery.execute(ElasticsearchPartQuery.java:113)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor$QueryMethodInvoker.invoke(QueryExecutorMethodInterceptor.java:195)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:152)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.findByEmail(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:344)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:198)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy91.findByEmail(Unknown Source)
+	at com.app.service.AppUserDetailsService.loadUserByUsername(AppUserDetailsService.java:24)
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108)
+	... 92 common frames omitted
+Caused by: java.lang.RuntimeException: Connection refused
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.translateException(ElasticsearchRestTemplate.java:376)
+	... 119 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at org.elasticsearch.client.RestClient.extractAndWrapCause(RestClient.java:823)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:248)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:235)
+	at org.elasticsearch.client.RestHighLevelClient.internalPerformRequest(RestHighLevelClient.java:1514)
+	at org.elasticsearch.client.RestHighLevelClient.performRequest(RestHighLevelClient.java:1484)
+	at org.elasticsearch.client.RestHighLevelClient.performRequestAndParseEntity(RestHighLevelClient.java:1454)
+	at org.elasticsearch.client.RestHighLevelClient.search(RestHighLevelClient.java:970)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.lambda$search$10(ElasticsearchRestTemplate.java:269)
+	at org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate.execute(ElasticsearchRestTemplate.java:359)
+	... 118 common frames omitted
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	... 1 common frames omitted
+2022-08-22 10:48:50 - Shutting down ExecutorService 'taskScheduler'
+2022-08-22 10:48:50 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-22 10:48:50 - Unregistering existing Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController].
+2022-08-22 10:48:50 - Unregistering existing Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController].
+2022-08-22 10:59:40 - Starting CenterConnectorApplication on julian with PID 19638 (/home/julian/Documents/repoMarti/base MERCADO LIBRE/base-controller-api/target/classes started by julian in /home/julian/Documents/repoMarti/base MERCADO LIBRE/base-controller-api)
+2022-08-22 10:59:40 - No active profile set, falling back to default profiles: default
+2022-08-22 10:59:40 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-08-22 10:59:40 - Finished Spring Data repository scanning in 39ms. Found 2 Elasticsearch repository interfaces.
+2022-08-22 10:59:40 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-08-22 10:59:40 - Finished Spring Data repository scanning in 13ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-08-22 10:59:41 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@29138d3a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean 'ESConfig' of type [com.app.config.ESConfig$$EnhancerBySpringCGLIB$$670cff02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Connection to ElasticSearch started!
+2022-08-22 10:59:41 - Bean 'clientRest' of type [org.elasticsearch.client.RestHighLevelClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:59:41 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:59:41 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:59:41 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:59:41 - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2022-08-22 10:59:41 - Version Elasticsearch Client in build: 7.6.2
+2022-08-22 10:59:41 - Version Elasticsearch Client used: 7.6.2
+2022-08-22 10:59:41 - Version Elasticsearch cluster: 7.9.3
+2022-08-22 10:59:41 - Version mismatch in between Elasticsearch Client and Cluster: 7.6.2 - 7.9.3
+2022-08-22 10:59:41 - Bean 'elasticsearchTemplate' of type [org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean 'userRepositoryImpl' of type [com.app.repository.es.custom.UserRepositoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#3f96f020' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#3f96f020' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#36d33f4' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#1faf386c' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#1faf386c' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean 'userRepository' of type [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean 'userRepository' of type [com.sun.proxy.$Proxy91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean 'managementUserRepositoryImpl' of type [com.app.repository.es.custom.ManagementUserRepositoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#1c93b51e' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#1c93b51e' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#7ea2412c' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#474179fa' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean '(inner bean)#474179fa' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean 'managementUserRepository' of type [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean 'managementUserRepository' of type [com.sun.proxy.$Proxy93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean 'methodSecurityConfig' of type [com.app.config.security.customexpression.MethodSecurityConfig$$EnhancerBySpringCGLIB$$5acdc90c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 10:59:41 - Tomcat initialized with port(s): 8091 (http)
+2022-08-22 10:59:41 - Starting service [Tomcat]
+2022-08-22 10:59:41 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-22 10:59:41 - Initializing Spring embedded WebApplicationContext
+2022-08-22 10:59:41 - Root WebApplicationContext: initialization completed in 1503 ms
+2022-08-22 10:59:41 - Trying to find Dozer configuration file: dozer.properties
+2022-08-22 10:59:41 - Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2022-08-22 10:59:41 - Initializing Dozer. Version: 5.5.0, Thread Name: main
+2022-08-22 10:59:41 - Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2022-08-22 10:59:41 - Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2022-08-22 10:59:41 - Initializing a new instance of dozer bean mapper.
+2022-08-22 10:59:41 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-22 10:59:42 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/api/v1/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@227a933d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4aa3fc9a, org.springframework.security.web.header.HeaderWriterFilter@7e747037, org.springframework.security.web.authentication.logout.LogoutFilter@1ffd0114, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@54567b05, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@634aa81e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@750cd36d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@25de8898, org.springframework.security.web.session.SessionManagementFilter@23f60b7d, org.springframework.security.web.access.ExceptionTranslationFilter@7cb29ea8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5280688]
+2022-08-22 10:59:42 - Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@1682e6a, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@505d2bac, org.springframework.security.web.context.SecurityContextPersistenceFilter@334540a0, org.springframework.security.web.header.HeaderWriterFilter@6fef75c6, org.springframework.security.web.authentication.logout.LogoutFilter@42aa1324, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2353354a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f179f51, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b428830, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4cecc15a, org.springframework.security.web.session.SessionManagementFilter@5f61e002, org.springframework.security.web.access.ExceptionTranslationFilter@1247c72e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6684f7f2]
+2022-08-22 10:59:42 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fd1ea75, org.springframework.security.web.context.SecurityContextPersistenceFilter@11d2714a, org.springframework.security.web.header.HeaderWriterFilter@446c8c72, org.springframework.security.web.authentication.logout.LogoutFilter@37b1149b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1187dc82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ca546a1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c8a445b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18e4551, org.springframework.security.web.session.SessionManagementFilter@6e2eead5, org.springframework.security.web.access.ExceptionTranslationFilter@892af0e]
+2022-08-22 10:59:42 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-22 10:59:42 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-22 10:59:42 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:59:42 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:59:42 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:59:42 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 10:59:42 - Initializing ExecutorService 'taskScheduler'
+2022-08-22 10:59:42 - Tomcat started on port(s): 8091 (http) with context path ''
+2022-08-22 10:59:42 - Context refreshed
+2022-08-22 10:59:42 - Found 1 custom documentation plugin(s)
+2022-08-22 10:59:43 - Scanning for api listing references
+2022-08-22 10:59:43 - Started CenterConnectorApplication in 3.163 seconds (JVM running for 3.637)
+2022-08-22 11:01:33 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-22 11:01:33 - Initializing Servlet 'dispatcherServlet'
+2022-08-22 11:01:33 - Completed initialization in 5 ms
+2022-08-22 11:03:53 - Shutting down ExecutorService 'taskScheduler'
+2022-08-22 11:03:53 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-22 11:03:53 - Unregistering existing Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController].
+2022-08-22 11:03:53 - Unregistering existing Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController].
+2022-08-22 11:04:02 - Starting CenterConnectorApplication on julian with PID 20129 (/home/julian/Documents/repoMarti/base MERCADO LIBRE/base-controller-api/target/classes started by julian in /home/julian/Documents/repoMarti/base MERCADO LIBRE/base-controller-api)
+2022-08-22 11:04:02 - No active profile set, falling back to default profiles: default
+2022-08-22 11:04:02 - Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-08-22 11:04:02 - Finished Spring Data repository scanning in 38ms. Found 2 Elasticsearch repository interfaces.
+2022-08-22 11:04:02 - Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-08-22 11:04:02 - Finished Spring Data repository scanning in 13ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-08-22 11:04:03 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3c69362a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean 'ESConfig' of type [com.app.config.ESConfig$$EnhancerBySpringCGLIB$$8755b8b2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Connection to ElasticSearch started!
+2022-08-22 11:04:03 - Bean 'clientRest' of type [org.elasticsearch.client.RestHighLevelClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 11:04:03 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 11:04:03 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 11:04:03 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 11:04:03 - Version Spring Data Elasticsearch: 4.0.4.RELEASE
+2022-08-22 11:04:03 - Version Elasticsearch Client in build: 7.6.2
+2022-08-22 11:04:03 - Version Elasticsearch Client used: 7.6.2
+2022-08-22 11:04:03 - Version Elasticsearch cluster: 7.9.3
+2022-08-22 11:04:03 - Version mismatch in between Elasticsearch Client and Cluster: 7.6.2 - 7.9.3
+2022-08-22 11:04:03 - Bean 'elasticsearchTemplate' of type [org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean 'userRepositoryImpl' of type [com.app.repository.es.custom.UserRepositoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#16736040' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#16736040' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#4b0bd001' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#687e6293' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#687e6293' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean 'userRepository' of type [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean 'userRepository' of type [com.sun.proxy.$Proxy91] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean 'managementUserRepositoryImpl' of type [com.app.repository.es.custom.ManagementUserRepositoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#7f353a0f' of type [org.springframework.beans.factory.config.PropertiesFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#7f353a0f' of type [java.util.Properties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#2668c286' of type [org.springframework.data.repository.core.support.PropertiesBasedNamedQueries] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#2abc8034' of type [org.springframework.data.repository.core.support.RepositoryFragmentsFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean '(inner bean)#2abc8034' of type [org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean 'managementUserRepository' of type [org.springframework.data.elasticsearch.repository.support.ElasticsearchRepositoryFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean 'managementUserRepository' of type [com.sun.proxy.$Proxy93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean 'methodSecurityConfig' of type [com.app.config.security.customexpression.MethodSecurityConfig$$EnhancerBySpringCGLIB$$7b1682bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-08-22 11:04:03 - Tomcat initialized with port(s): 8091 (http)
+2022-08-22 11:04:03 - Starting service [Tomcat]
+2022-08-22 11:04:03 - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-08-22 11:04:03 - Initializing Spring embedded WebApplicationContext
+2022-08-22 11:04:03 - Root WebApplicationContext: initialization completed in 1413 ms
+2022-08-22 11:04:03 - Trying to find Dozer configuration file: dozer.properties
+2022-08-22 11:04:03 - Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+2022-08-22 11:04:03 - Initializing Dozer. Version: 5.5.0, Thread Name: main
+2022-08-22 11:04:03 - Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+2022-08-22 11:04:03 - Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+2022-08-22 11:04:03 - Initializing a new instance of dozer bean mapper.
+2022-08-22 11:04:03 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2022-08-22 11:04:04 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/api/v1/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@25de8898, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c8ff67, org.springframework.security.web.header.HeaderWriterFilter@66234b0f, org.springframework.security.web.authentication.logout.LogoutFilter@b3857e2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3a5e2525, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77ccded4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7afe0e67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bfb93cf, org.springframework.security.web.session.SessionManagementFilter@2ba9f986, org.springframework.security.web.access.ExceptionTranslationFilter@5ce3409b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@643f6179]
+2022-08-22 11:04:04 - Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@505d2bac, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4cecc15a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f179f51, org.springframework.security.web.header.HeaderWriterFilter@5f61e002, org.springframework.security.web.authentication.logout.LogoutFilter@6164e137, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@7c7ed72a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b428830, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b7308aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d969452, org.springframework.security.web.session.SessionManagementFilter@334540a0, org.springframework.security.web.access.ExceptionTranslationFilter@6fef75c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1682e6a]
+2022-08-22 11:04:04 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@18e4551, org.springframework.security.web.context.SecurityContextPersistenceFilter@ca546a1, org.springframework.security.web.header.HeaderWriterFilter@6e2eead5, org.springframework.security.web.authentication.logout.LogoutFilter@1187dc82, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6fd1ea75, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c8a445b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@356b6b5d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ea48c37, org.springframework.security.web.session.SessionManagementFilter@11d2714a, org.springframework.security.web.access.ExceptionTranslationFilter@446c8c72]
+2022-08-22 11:04:04 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-22 11:04:04 - Initializing ExecutorService 'applicationTaskExecutor'
+2022-08-22 11:04:04 - Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 11:04:04 - Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 11:04:04 - Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 11:04:04 - Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-08-22 11:04:04 - Initializing ExecutorService 'taskScheduler'
+2022-08-22 11:04:04 - Tomcat started on port(s): 8091 (http) with context path ''
+2022-08-22 11:04:04 - Context refreshed
+2022-08-22 11:04:04 - Found 1 custom documentation plugin(s)
+2022-08-22 11:04:04 - Scanning for api listing references
+2022-08-22 11:04:05 - Started CenterConnectorApplication in 3.014 seconds (JVM running for 3.497)
+2022-08-22 11:04:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-22 11:04:18 - Initializing Servlet 'dispatcherServlet'
+2022-08-22 11:04:18 - Completed initialization in 6 ms
+2022-08-22 11:05:55 - Shutting down ExecutorService 'taskScheduler'
+2022-08-22 11:05:55 - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-08-22 11:05:55 - Unregistering existing Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController].
+2022-08-22 11:05:55 - Unregistering existing Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController].
